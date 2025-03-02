@@ -27,11 +27,10 @@
   .status{
     margin-top: 20px;
     margin-bottom: 70px;
+    text-align: center;
+    font-size: 3.5rem;
   }
   img{
     width: 200px;
-  }
-  .status{
-    font-size: 3.5rem;
   }
 }

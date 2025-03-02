@@ -1,0 +1,37 @@
+.dice{
+  display: flex;
+  gap: 80px;
+  justify-content: center;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 50vh;
+}
+.name{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+.status{
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+}
+@media (max-width:600px) {
+  .dice{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 70vh;
+  }
+  .status{
+    margin-top: 20px;
+    margin-bottom: 70px;
+  }
+  img{
+    width: 200px;
+  }
+  .status{
+    font-size: 3.5rem;
+  }
+}

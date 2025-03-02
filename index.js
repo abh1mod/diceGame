@@ -17,5 +17,5 @@ else {
     document.querySelector(".second .name").textContent = "🚩 Player 2 ";
 }
 
-var face1 = document.getElementById("face1").src = "./images/dice"+p1+".png";
-var face2 = document.getElementById("face2").src = "./images/dice"+p2+".png";
+document.getElementById("face1").src = "./images/dice"+p1+".png";
+document.getElementById("face2").src = "./images/dice"+p2+".png";
